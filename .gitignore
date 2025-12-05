@@ -30,7 +30,6 @@ wheels/
 *.onnx
 
 # Results and data
-results/*.png
 results/*.mp4
 results/*.gif
 data/

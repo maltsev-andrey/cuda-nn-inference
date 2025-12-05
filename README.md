@@ -12,32 +12,8 @@ This project implements a complete neural network inference pipeline on GPU with
 
 The network implements a 3-layer fully-connected architecture:
 
-```
-Input (784 pixels)
-    |
-    v
-Linear Layer 1: 784 → 256
-    |
-    v
-ReLU Activation
-    |
-    v
-Linear Layer 2: 256 → 128
-    |
-    v
-ReLU Activation
-    |
-    v
-Linear Layer 3: 128 → 10
-    |
-    v
-Softmax Activation
-    |
-    v
-Output (10 class probabilities)
-```
+![Network Architecture](docs/architecture.drawio.png)
 
-Total parameters: 235,146
 
 ## Technical Implementation
 
