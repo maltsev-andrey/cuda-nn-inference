@@ -1,0 +1,24 @@
+CUDA Neural Network Inference - Benchmark Results
+============================================================
+
+CUDA Implementation;
+------------------------------------------------------------
+Batch    1:        126 img/sec |  7.948 ms/img | Acc: 100.00%
+Batch   16:      2,009 img/sec |  0.498 ms/img | Acc: 97.12%
+Batch   64:      8,066 img/sec |  0.124 ms/img | Acc: 97.28%
+Batch  256:     29,616 img/sec |  0.034 ms/img | Acc: 97.82%
+Batch 1024:     88,300 img/sec |  0.011 ms/img | Acc: 97.86%
+
+PyTorch GPU:
+------------------------------------------------------------
+Batch    1:      9,426 img/sec |  5.305 mc/img
+Batch   16:     68,513 img/sec | 11.677 mc/img
+Batch   64:    149,000 img/sec | 21.477 mc/img
+Batch  256:    203,143 img/sec | 49.148 mc/img
+
+============================================================
+Speedup Summary (Best Case):
+------------------------------------------------------------
+Best CUDA: Batch 1024 = 88,300 img/sec
+vs PyTorch GPU: 0.06x
+vs CPU: 0.43x

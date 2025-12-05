@@ -1,0 +1,26 @@
+# CUDA Neural Network Inference - Requirements
+
+# Core dependencies
+numpy>=1.24.0
+numba>=0.58.0
+cuda-python>=12.0.0
+
+# PyTorch for training and baseline comparison
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Visualization and analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Testing
+pytest>=7.4.0
+
+# Utilities
+tqdm>=4.65.0
+pillow>=10.0.0
+
+# Optional: for Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
