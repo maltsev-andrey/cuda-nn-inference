@@ -74,6 +74,9 @@ Hardware: NVIDIA Tesla P100-PCIE-16GB
 | 256        | 0.034               | 0.002       |
 | 1024       | 0.011               | 0.001       |
 
+Performance Comparison Chart
+![Network Architecture](docs/performance_comparison.png)
+
 ### Accuracy
 
 All batch sizes achieve 97.82-97.86% accuracy on MNIST test set, matching the PyTorch baseline exactly.
