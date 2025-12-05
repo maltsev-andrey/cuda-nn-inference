@@ -2,6 +2,10 @@
 
 A high-performance GPU-accelerated inference engine for fully-connected neural networks, implemented from scratch using CUDA (via Numba). This project uses low-level GPU programming skills by implementing custom CUDA kernels for all neural network operations.
 
+![CUDA](https://img.shields.io/badge/CUDA-12.4-76B900?logo=nvidia)
+![Performance](https://img.shields.io/badge/Performance-6.4_TFLOPS-success)
+![GPU](https://img.shields.io/badge/GPU-Tesla_P100-blue)
+
 ## Project Overview
 
 This project implements a complete neural network inference pipeline on GPU without using high-level frameworks like PyTorch or TensorFlow for the forward pass. All operations (matrix multiplication, activation functions, normalization) are implemented as custom CUDA kernels.
